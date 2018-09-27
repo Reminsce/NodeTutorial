@@ -7,6 +7,9 @@ Node.js에 대해서 깊게 공부하려면 관련 서적이나 레퍼런스를 
 ## 용어정리
 - npm : Node Package Manager(혹은 Node Package Modules)의 약자로 node.js 개발 시 필요한 패키지들을 편리하게 다운로드 받을 수 있도록 도와줍니다. 노드를 하다보면 왜 npm이 필요한지에 대해서 깨닫기까지는 오랜시간이 걸리지 않습니다.
 
+## 노드 설치
+윈도우 : [링크](http://blog.work6.kr/146)를 참조하세요.
+
 ## 프로젝트 생성
 
 우선 노드 서버 프로젝트를 만들 디렉토리를 생성합니다.
@@ -14,7 +17,7 @@ Node.js에 대해서 깊게 공부하려면 관련 서적이나 레퍼런스를 
 ```
 mkdir first-tutorial-server
 cd first-tutorial-server
-node init
+npm init
 
 Press ^C at any time to quit.
 package name: (first-tutorial-server)   // 우린 이게 아직 뭔지 모르기 때문에 그냥 다 엔터치고 넘어갑니다.
